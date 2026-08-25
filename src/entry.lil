@@ -1,0 +1,14 @@
+import { CompileHost, allowHtmlFrom } from "./host.lil";
+import { toHtml } from "./to-html.lil";
+
+JsValue install(JsValue self, JsValue options) {
+  CompileHost host = JS.assume(self);
+  bool allow = allowHtmlFrom(self, options);
+  host.compiler = JS.method2((JsValue _s, JsValue tree, JsValue _file) => {
+    return toHtml(tree, allow);
+  });
+  return JS.undefined();
+}
+
+export JsValue rehypeStringify = JS.method1(install);
+export JsValue default = rehypeStringify;
