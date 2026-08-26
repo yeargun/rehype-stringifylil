@@ -1,6 +1,6 @@
 # @itslil/rehype-stringify
 
-rehype-stringify reimplemented in LilScript. This is **not** the official [`rehype-stringify`](https://github.com/rehypejs/rehype) package.
+Official [`rehype-stringify@10.0.1`](https://github.com/rehypejs/rehype) algorithms rewritten in LilScript. Official test suite 7/7. Not affiliated with upstream.
 
 **Site:** [yeargun.github.io/rehype-stringifylil/](https://yeargun.github.io/rehype-stringifylil/)
 

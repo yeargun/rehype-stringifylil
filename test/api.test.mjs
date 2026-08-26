@@ -52,7 +52,7 @@ describe("rehype-stringify", () => {
       children: [{ type: "text", value: "a<b" }],
     })
     assert.match(String(html), /class="math math-inline"/)
-    assert.match(String(html), /a&lt;b/)
+    assert.match(String(html), /a&#x3C;b/)
   })
 
   it("keeps pinned keys in the library artifact", () => {
