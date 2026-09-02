@@ -2,7 +2,7 @@
   "pin": "rehype-stringify@10.0.1",
   "package": "@itslil/rehype-stringify",
   "file": "rehype-stringify",
-  "lilExport": "rehypeStringify",
+  "lilExport": "default",
   "officialExport": "default",
   "node": "v22.21.1",
   "codec": "lilscript-codec gzip-9 / brotli-11",
@@ -10,9 +10,9 @@
   "warmupDiscard": 3,
   "comparison": "Official rows are an esbuild bundle of rehype-stringify@10.0.1 plus its runtime graph, then Terser or esbuild. LilScript is the compiled npm file. Closed is extern_fields=false.",
   "spec": {
-    "total": 7,
-    "pass": 7,
-    "label": "package tests"
+    "total": 10,
+    "pass": 10,
+    "label": "API and parity tests"
   },
   "play": {
     "kind": "json-html",
@@ -56,19 +56,19 @@
     {
       "id": "itslil",
       "name": "@itslil/rehype-stringify · library",
-      "raw": 28587,
-      "gzip9": 9478,
-      "brotli11": 8301,
+      "raw": 30604,
+      "gzip9": 10388,
+      "brotli11": 9092,
       "note": "LilScript js-module, extern_fields true. The npm ESM.",
       "primary": true
     },
     {
       "id": "itslil-closed",
       "name": "@itslil/rehype-stringify · closed",
-      "raw": 28492,
-      "gzip9": 9422,
-      "brotli11": 8259,
-      "note": "Same source, extern_fields false"
+      "raw": 30179,
+      "gzip9": 10215,
+      "brotli11": 8932,
+      "note": "Same source, extern_fields false; diagnostic only"
     }
   ],
   "throughput": [

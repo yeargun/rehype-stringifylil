@@ -1,0 +1,3 @@
+import { rehypeStringify } from "./lib/index.lil";
+
+export { rehypeStringify as default };

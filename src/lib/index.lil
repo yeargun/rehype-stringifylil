@@ -1,0 +1,31 @@
+import { toHtml } from "../../../hast-util-to-htmllil/src/index.lil";
+import { defineOwn, hasOwn } from "../../../hast-util-to-htmllil/src/lib/types.lil";
+
+extern class Processor {
+  JsValue compiler;
+  JsValue data;
+}
+
+void assignOwn(JsValue target, JsValue source) {
+  if (JS.isUndefined(source) || JS.isNullish(source)) {
+    return;
+  }
+  for (string key in source) {
+    if (hasOwn(source, key)) {
+      defineOwn(target, key, JS.get(source, key));
+    }
+  }
+}
+
+JsValue attach(JsValue self, JsValue options) {
+  Processor processor = JS.assume(self);
+  JsValue settings = JS.object();
+  assignOwn(settings, JS.call(processor.data, self, "settings"));
+  assignOwn(settings, options);
+  processor.compiler = JS.method1((JsValue _compiler, JsValue tree) => {
+    return toHtml(tree, settings);
+  });
+  return JS.undefined();
+}
+
+export JsValue rehypeStringify = JS.method1(attach);
