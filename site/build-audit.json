@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "name": "rehype-stringifylil",
+  "measuredAt": "2026-09-10T13:59:38Z",
+  "status": "verified",
+  "buildPassed": true,
+  "summary": "The fresh artifact was checked against the repository test command.",
+  "sourceCommit": "6f258efe0d28998033565eab726dea1c39b9dcef",
+  "previousPublicCommit": "6f258efe0d28998033565eab726dea1c39b9dcef",
+  "compiler": {
+    "commit": "63c2896a71e60cbcca7870fe979f9d6ecaff3452",
+    "sha256": "2319462ef7d858c8e2a5a767260aa4f80d325e0045afa0cc86cc122d1299b059",
+    "profile": "release",
+    "dirty": false
+  },
+  "machine": {
+    "cpu": "AMD EPYC 9V45 96-Core Processor",
+    "logicalCpus": 16,
+    "affinityCpus": 16,
+    "memoryBytes": 33648431104,
+    "os": "Ubuntu 24.04.4 LTS",
+    "kernel": "6.17.0-1022-azure",
+    "architecture": "x86_64",
+    "node": "v22.23.2",
+    "rayonThreads": 16,
+    "provider": "Azure",
+    "instanceClass": "Standard_D16als_v7",
+    "parallelPortBuildsOnMachine": 1,
+    "loadAtStart": [
+      7.677734375,
+      5.30810546875,
+      2.5615234375
+    ],
+    "concurrencyNote": "The audit scheduled one port per worker, but this is a shared pool. Outside compiler jobs were observed during the run; timings are contextual wall times, not controlled speedup benchmarks."
+  },
+  "upstream": {
+    "name": "rehype-stringifylil",
+    "package": "rehype-stringify",
+    "pinned": "10.0.1",
+    "latest": "10.0.1",
+    "source": "https://www.npmjs.com/package/rehype-stringify"
+  },
+  "comparisonScope": "rehype-stringify@10.0.1 public ESM runtime graph; dependency installation excluded; this is a comparison bundle build, not the upstream vendor release pipeline Sizes use canonical zlib 1.3.1 gzip-9 and Google Brotli 1.1.0 quality 11.",
+  "sizes": {
+    "previous": {
+      "id": "itslil",
+      "name": "@itslil/rehype-stringify \u00b7 library",
+      "raw": 30604,
+      "gzip9": 10388,
+      "brotli11": 9092,
+      "note": "LilScript js-module, extern_fields true. The npm ESM.",
+      "primary": true
+    },
+    "current": {
+      "path": "dist/rehype-stringify.esm.js",
+      "raw": 29612,
+      "gzip9": 9948,
+      "brotli11": 8716,
+      "sha256": "dc8ad21d076f268deab064e1396e3d1539d02889a3ffa7dcd21d19bfde3691d4"
+    },
+    "upstream": {
+      "path": ".page-audit/upstream/official.esm.js",
+      "raw": 31929,
+      "gzip9": 11259,
+      "brotli11": 9873,
+      "sha256": "b23e0d7c3c4d261643e992cdce4566dbdd7bd43a29636ef22d7e9db6b7271f93"
+    }
+  },
+  "officialArtifacts": [
+    {
+      "path": ".page-audit/upstream/official.terser-nomangle.js",
+      "raw": 39819,
+      "gzip9": 12356,
+      "brotli11": 10864,
+      "sha256": "bfc93aca3962d335737d1304ea7ef002304b687063214966deb1f7425e7ac04e"
+    },
+    {
+      "path": ".page-audit/upstream/official.esm.js",
+      "raw": 31929,
+      "gzip9": 11259,
+      "brotli11": 9873,
+      "sha256": "b23e0d7c3c4d261643e992cdce4566dbdd7bd43a29636ef22d7e9db6b7271f93"
+    },
+    {
+      "path": ".page-audit/upstream/official.unminified.js",
+      "raw": 58600,
+      "gzip9": 14649,
+      "brotli11": 12904,
+      "sha256": "51c775f9c005caa3f489c5da36577c8baa36cc0879b984fd4a82872460bc5e34"
+    },
+    {
+      "path": ".page-audit/upstream/official.esbuild.js",
+      "raw": 32850,
+      "gzip9": 11260,
+      "brotli11": 10073,
+      "sha256": "411d33a8830d938f56ca5df6526944f044fbf6540328cf05d250563129d32545"
+    }
+  ],
+  "candidateArtifacts": [
+    {
+      "path": "dist/rehype-stringify.raw.js",
+      "raw": 29517,
+      "gzip9": 9881,
+      "brotli11": 8658,
+      "sha256": "f718e274660553401ad1499b7b5c7ffa809043a771d20f5d81139502d9adba4c"
+    },
+    {
+      "path": "dist/rehype-stringify.cjs",
+      "raw": 31641,
+      "gzip9": 10490,
+      "brotli11": 9212,
+      "sha256": "eac30f94d64c1e0585b92f8f7f541e37c41ad88fa57a7798c1928399a446ebf0"
+    },
+    {
+      "path": "dist/rehype-stringify.umd.js",
+      "raw": 31766,
+      "gzip9": 10519,
+      "brotli11": 9241,
+      "sha256": "4b15cbf9adcb01268dc8604bf1635556fd722ef57c4eb22c80a8fc4f8f62282d"
+    },
+    {
+      "path": "dist/rehype-stringify.closed.js",
+      "raw": 29238,
+      "gzip9": 9775,
+      "brotli11": 8555,
+      "sha256": "5c4806ead034a786ba01bc8e0e23dd5436c0208e579eaa91895869b388ba3869"
+    },
+    {
+      "path": "dist/rehype-stringify.esm.js",
+      "raw": 29612,
+      "gzip9": 9948,
+      "brotli11": 8716,
+      "sha256": "dc8ad21d076f268deab064e1396e3d1539d02889a3ffa7dcd21d19bfde3691d4"
+    },
+    {
+      "path": ".page-audit/upstream/official.esbuild.js",
+      "raw": 32850,
+      "gzip9": 11260,
+      "brotli11": 10073,
+      "sha256": "411d33a8830d938f56ca5df6526944f044fbf6540328cf05d250563129d32545"
+    },
+    {
+      "path": ".page-audit/upstream/official.terser-nomangle.js",
+      "raw": 39819,
+      "gzip9": 12356,
+      "brotli11": 10864,
+      "sha256": "bfc93aca3962d335737d1304ea7ef002304b687063214966deb1f7425e7ac04e"
+    },
+    {
+      "path": ".page-audit/upstream/official.unminified.js",
+      "raw": 58600,
+      "gzip9": 14649,
+      "brotli11": 12904,
+      "sha256": "51c775f9c005caa3f489c5da36577c8baa36cc0879b984fd4a82872460bc5e34"
+    },
+    {
+      "path": ".page-audit/upstream/official.esm.js",
+      "raw": 31929,
+      "gzip9": 11259,
+      "brotli11": 9873,
+      "sha256": "b23e0d7c3c4d261643e992cdce4566dbdd7bd43a29636ef22d7e9db6b7271f93"
+    }
+  ],
+  "timing": {
+    "primaryCompilerSeconds": 1.0228710174560547,
+    "primaryScope": "One real compiler process, including code generation and codec-guided search; excludes subsequent package wrapping.",
+    "packageSeconds": 2.117663139999877,
+    "packageScope": "node scripts/build.mjs --compile --force; 2 successful compiler invocations plus package generation.",
+    "upstreamSeconds": 0.11673337800000001,
+    "upstreamScope": "rehype-stringify@10.0.1 public ESM runtime graph; dependency installation excluded; this is a comparison bundle build, not the upstream vendor release pipeline",
+    "protocol": "Same shared worker for both lanes; one fresh LilScript package build; median of three sequential upstream ESM builds (PlayCanvas records one native reference build). Outside compiler jobs were observed in the pool, so contention is not excluded. Dependencies, tests and compression measurement are outside these build times.",
+    "upstreamSamples": [
+      {
+        "bundleSeconds": 0.007826467999999998,
+        "wallSeconds": 0.165548072
+      },
+      {
+        "bundleSeconds": 0.007578113000000002,
+        "wallSeconds": 0.11673337800000001
+      },
+      {
+        "bundleSeconds": 0.005764221000000021,
+        "wallSeconds": 0.079595121
+      }
+    ]
+  },
+  "behavior": {
+    "command": "node --test test/*.test.mjs",
+    "summary": "Repository test command passed (exit 0). # tests 10 \u00b7 # pass 10 \u00b7 # fail 0",
+    "before": {
+      "exitCode": 0,
+      "failures": [],
+      "logSha256": "cb93ca34332a3f4fc320505e6360c4795e4cc0c71db2d2152e3dfe4e6f8eb198"
+    },
+    "after": {
+      "exitCode": 0,
+      "tail": "TAP version 13\n# Subtest: rehype-stringify\n    # Subtest: exports only the default plugin\n    ok 1 - exports only the default plugin\n      ---\n      duration_ms: 0.781899\n      type: 'test'\n      ...\n    # Subtest: compiles a paragraph hast node to html\n    ok 2 - compiles a paragraph hast node to html\n      ---\n      duration_ms: 0.446397\n      type: 'test'\n      ...\n    # Subtest: emits input type from properties\n    ok 3 - emits input type from properties\n      ---\n      duration_ms: 1.616307\n      type: 'test'\n      ...\n    # Subtest: escapes text and joins className arrays\n    ok 4 - escapes text and joins className arrays\n      ---\n      duration_ms: 0.168813\n      type: 'test'\n      ...\n    # Subtest: keeps pinned keys in the library artifact\n    ok 5 - keeps pinned keys in the library artifact\n      ---\n      duration_ms: 0.127631\n      type: 'test'\n      ...\n    # Subtest: merges processor settings before explicit options\n    ok 6 - merges processor settings before explicit options\n      ---\n      duration_ms: 0.097947\n      type: 'test'\n      ...\n    # Subtest: passes all character-reference options to the serializer\n    ok 7 - passes all character-reference options to the serializer\n      ---\n      duration_ms: 1.171621\n      type: 'test'\n      ...\n    # Subtest: copies own settings without prototype pollution\n    ok 8 - copies own settings without prototype pollution\n      ---\n      duration_ms: 0.150885\n      type: 'test'\n      ...\n    1..8\nok 1 - rehype-stringify\n  ---\n  duration_ms: 5.268155\n  type: 'suite'\n  ...\n# Subtest: rehype-stringify closed\n    # Subtest: ships a closed artifact with the default export\n    ok 1 - ships a closed artifact with the default export\n      ---\n      duration_ms: 0.872695\n      type: 'test'\n      ...\n    1..1\nok 2 - rehype-stringify closed\n  ---\n  duration_ms: 1.341735\n  type: 'suite'\n  ...\n# Subtest: site\n    # Subtest: has a markedlil-style lab with receipts\n    ok 1 - has a markedlil-style lab with receipts\n      ---\n      duration_ms: 0.473368\n      type: 'test'\n      ...\n    1..1\nok 3 - site\n  ---\n  duration_ms: 0.940215\n  type: 'suite'\n  ...\n1..3\n# tests 10\n# suites 3\n# pass 10\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 45.151553\n",
+      "failures": [],
+      "logSha256": "0938ae5e5f90ac07f5e225db07d448634576a02269ab8add4470474c466f16ec"
+    }
+  },
+  "findings": [
+    "Published-to-fresh Brotli drift: -376 bytes (-4.14%). This includes port source/config changes and compiler changes."
+  ],
+  "primaryArtifact": "dist/rehype-stringify.esm.js",
+  "beforePage": {
+    "url": "https://yeargun.github.io/rehype-stringifylil/",
+    "status": 200,
+    "sha256": "a4d8e00fd7d573d72c550d39c9eef46506209a4d75d5dac8edc35a1a6800dab1",
+    "lastModified": "Wed, 02 Sep 2026 15:25:09 GMT"
+  },
+  "codecSha256": "9257fd055728895c11b9c4b0d882895d7d11bb3dd3495f560123879ca2bc3cd6",
+  "publicationArtifacts": [
+    {
+      "path": "dist/rehype-stringify.cjs",
+      "sha256": "eac30f94d64c1e0585b92f8f7f541e37c41ad88fa57a7798c1928399a446ebf0"
+    },
+    {
+      "path": "dist/rehype-stringify.umd.js",
+      "sha256": "4b15cbf9adcb01268dc8604bf1635556fd722ef57c4eb22c80a8fc4f8f62282d"
+    },
+    {
+      "path": "dist/rehype-stringify.closed.js",
+      "sha256": "5c4806ead034a786ba01bc8e0e23dd5436c0208e579eaa91895869b388ba3869"
+    },
+    {
+      "path": "dist/rehype-stringify.esm.js",
+      "sha256": "dc8ad21d076f268deab064e1396e3d1539d02889a3ffa7dcd21d19bfde3691d4"
+    }
+  ],
+  "publicationPolicy": "Promote freshly tested distribution",
+  "publicationBase": "6f258efe0d28998033565eab726dea1c39b9dcef",
+  "publicationSourceFingerprint": "8fe11a6c95f3299b59b02d7d51637eeb190aa4be66529b6a3fe9d8c3b0ecb9cc"
+}
