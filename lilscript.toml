@@ -1,5 +1,10 @@
 # reusable ESM — host-visible names stay
 [javascript]
+# 8.103: converged naming, measured -15 Brotli on this port against the current
+# compiler. Swept fleet-wide the knob is net positive, so it lands per port.
+# The earlier sweep of it predates live-17..23; a refused measurement has a
+# shelf life when the compiler moves under it.
+name_ordering = "idiom-converged"
 priority = "size-first"
 # 8.90: level 12 -> 15, measured -33 Brotli on this port's own
 # artifact. Swept across the fleet the level is nearly inert (-160 over 22,
