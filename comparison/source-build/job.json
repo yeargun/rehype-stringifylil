@@ -1,0 +1,34 @@
+{
+  "source": {
+    "repository": "https://github.com/rehypejs/rehype.git",
+    "commit": "06fd4dc9b13538ece27bce1999a85d396a646817",
+    "package": "rehype-stringify",
+    "version": "10.0.1",
+    "directory": "packages/rehype-stringify",
+    "releaseTag": "13.0.2 (monorepo; rehype-stringify 10.0.1)"
+  },
+  "portSource": {
+    "commit": "6f258efe0d28998033565eab726dea1c39b9dcef"
+  },
+  "compilerCommit": "4dc4e3337d9ffd758d65e3852682d6e13d9331c1",
+  "install": [
+    "npm",
+    "install",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund"
+  ],
+  "setup": [],
+  "build": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "clean": [],
+  "entry": "packages/rehype-stringify/index.js",
+  "defaultExport": true,
+  "external": [],
+  "esmScope": "rehype-stringify@10.0.1 public ESM runtime graph; dependency installation excluded; this is a comparison bundle build, not the upstream vendor release pipeline",
+  "lilscriptBuild": "node scripts/build.mjs --compile --force",
+  "test": "node --test test/*.test.mjs"
+}

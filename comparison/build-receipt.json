@@ -233,12 +233,39 @@
   "publicationSourceFingerprint": "8fe11a6c95f3299b59b02d7d51637eeb190aa4be66529b6a3fe9d8c3b0ecb9cc",
   "comparisonArtifacts": [
     {
+      "path": "site/esm-comparison/original.js",
+      "sha256": "b23e0d7c3c4d261643e992cdce4566dbdd7bd43a29636ef22d7e9db6b7271f93"
+    },
+    {
       "path": "site/esm-comparison/lilscript.js",
       "sha256": "dc8ad21d076f268deab064e1396e3d1539d02889a3ffa7dcd21d19bfde3691d4"
     },
     {
-      "path": "site/esm-comparison/original.js",
-      "sha256": "b23e0d7c3c4d261643e992cdce4566dbdd7bd43a29636ef22d7e9db6b7271f93"
+      "path": "site/source-build.json",
+      "sha256": "32b94cdb85380de69116ad7cf30414db518363745cd8a2e4d13ae6637682f1a3"
+    },
+    {
+      "path": "site/comparison.json",
+      "sha256": "deedf6088455081b6e31058606e6c0fa8856ce7936b04f0048153bef13d4c916"
     }
-  ]
+  ],
+  "sourceBuildReceipt": "comparison/source-build/result.json",
+  "currentMeasurement": {
+    "compiler": {
+      "commit": "4dc4e3337d9ffd758d65e3852682d6e13d9331c1",
+      "sha256": "0616048498eb9eb2e4bd75b39e8e6a083733ada647e16108edfee30ad183beeb"
+    },
+    "source": {
+      "commit": "6f258efe0d28998033565eab726dea1c39b9dcef"
+    },
+    "upstream": {
+      "repository": "https://github.com/rehypejs/rehype.git",
+      "commit": "06fd4dc9b13538ece27bce1999a85d396a646817",
+      "package": "rehype-stringify",
+      "version": "10.0.1",
+      "directory": "packages/rehype-stringify",
+      "releaseTag": "13.0.2 (monorepo; rehype-stringify 10.0.1)"
+    },
+    "compatibility": "Runtime checks: 10/10 pass."
+  }
 }

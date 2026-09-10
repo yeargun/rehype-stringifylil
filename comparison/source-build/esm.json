@@ -1,0 +1,116 @@
+{
+  "source": {
+    "repository": "https://github.com/rehypejs/rehype.git",
+    "commit": "06fd4dc9b13538ece27bce1999a85d396a646817",
+    "package": "rehype-stringify",
+    "version": "10.0.1",
+    "directory": "packages/rehype-stringify",
+    "releaseTag": "13.0.2 (monorepo; rehype-stringify 10.0.1)"
+  },
+  "entry": "packages/rehype-stringify/index.js",
+  "scope": "rehype-stringify@10.0.1 public ESM runtime graph; dependency installation excluded; this is a comparison bundle build, not the upstream vendor release pipeline",
+  "external": [],
+  "samples": [
+    {
+      "bundleSeconds": 0.012510274000000002,
+      "wallSeconds": 0.130004295
+    },
+    {
+      "bundleSeconds": 0.007210775999999981,
+      "wallSeconds": 0.105546569
+    },
+    {
+      "bundleSeconds": 0.006395213000000012,
+      "wallSeconds": 0.08761850800000003
+    }
+  ],
+  "medianSeconds": 0.105546569,
+  "toolchain": {
+    "esbuild": "0.28.1",
+    "terser": "5.51.2"
+  },
+  "artifacts": [
+    {
+      "path": "original.esm.js",
+      "raw": 31929,
+      "gzip9": 11259,
+      "brotli11": 9873,
+      "sha256": "b23e0d7c3c4d261643e992cdce4566dbdd7bd43a29636ef22d7e9db6b7271f93"
+    },
+    {
+      "path": "original.unminified.js",
+      "raw": 58596,
+      "gzip9": 14656,
+      "brotli11": 12852,
+      "sha256": "cac79ce87f802fc63c4f75cae44289d020a0e87eb76f5755303e0d3fafed07b3"
+    },
+    {
+      "path": "original.terser-nomangle.js",
+      "raw": 39819,
+      "gzip9": 12356,
+      "brotli11": 10864,
+      "sha256": "bfc93aca3962d335737d1304ea7ef002304b687063214966deb1f7425e7ac04e"
+    },
+    {
+      "path": "original.esbuild.js",
+      "raw": 32850,
+      "gzip9": 11260,
+      "brotli11": 10073,
+      "sha256": "411d33a8830d938f56ca5df6526944f044fbf6540328cf05d250563129d32545"
+    }
+  ],
+  "inputs": [
+    "node_modules/html-void-elements/index.js",
+    "node_modules/property-information/lib/util/schema.js",
+    "node_modules/property-information/lib/util/merge.js",
+    "node_modules/property-information/lib/normalize.js",
+    "node_modules/property-information/lib/util/info.js",
+    "node_modules/property-information/lib/util/types.js",
+    "node_modules/property-information/lib/util/defined-info.js",
+    "node_modules/property-information/lib/util/create.js",
+    "node_modules/property-information/lib/aria.js",
+    "node_modules/property-information/lib/util/case-sensitive-transform.js",
+    "node_modules/property-information/lib/util/case-insensitive-transform.js",
+    "node_modules/property-information/lib/html.js",
+    "node_modules/property-information/lib/svg.js",
+    "node_modules/property-information/lib/xlink.js",
+    "node_modules/property-information/lib/xmlns.js",
+    "node_modules/property-information/lib/xml.js",
+    "node_modules/property-information/lib/hast-to-react.js",
+    "node_modules/property-information/lib/find.js",
+    "node_modules/property-information/index.js",
+    "node_modules/zwitch/index.js",
+    "node_modules/stringify-entities/lib/core.js",
+    "node_modules/stringify-entities/lib/util/to-hexadecimal.js",
+    "node_modules/stringify-entities/lib/util/to-decimal.js",
+    "node_modules/character-entities-legacy/index.js",
+    "node_modules/character-entities-html4/index.js",
+    "node_modules/stringify-entities/lib/constant/dangerous.js",
+    "node_modules/stringify-entities/lib/util/to-named.js",
+    "node_modules/stringify-entities/lib/util/format-smart.js",
+    "node_modules/stringify-entities/lib/util/format-basic.js",
+    "node_modules/stringify-entities/lib/index.js",
+    "node_modules/stringify-entities/index.js",
+    "node_modules/hast-util-to-html/lib/handle/comment.js",
+    "node_modules/hast-util-to-html/lib/handle/doctype.js",
+    "node_modules/ccount/index.js",
+    "node_modules/comma-separated-tokens/index.js",
+    "node_modules/space-separated-tokens/index.js",
+    "node_modules/hast-util-whitespace/lib/index.js",
+    "node_modules/hast-util-whitespace/index.js",
+    "node_modules/hast-util-to-html/lib/omission/util/siblings.js",
+    "node_modules/hast-util-to-html/lib/omission/omission.js",
+    "node_modules/hast-util-to-html/lib/omission/closing.js",
+    "node_modules/hast-util-to-html/lib/omission/opening.js",
+    "node_modules/hast-util-to-html/lib/handle/element.js",
+    "node_modules/hast-util-to-html/lib/handle/text.js",
+    "node_modules/hast-util-to-html/lib/handle/raw.js",
+    "node_modules/hast-util-to-html/lib/handle/root.js",
+    "node_modules/hast-util-to-html/lib/handle/index.js",
+    "node_modules/hast-util-to-html/lib/index.js",
+    "node_modules/hast-util-to-html/index.js",
+    "packages/rehype-stringify/lib/index.js",
+    "packages/rehype-stringify/index.js",
+    "public-esm-entry.mjs"
+  ]
+}
