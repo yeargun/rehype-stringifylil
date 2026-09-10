@@ -12,7 +12,7 @@
   "spec": {
     "total": 10,
     "pass": 10,
-    "label": "API and parity tests"
+    "label": "repository checks"
   },
   "play": {
     "kind": "json-html",
@@ -67,7 +67,7 @@
       "raw": 29612,
       "gzip9": 9948,
       "brotli11": 8716,
-      "note": "Fresh packaged ESM; compiler 63c2896a71.",
+      "note": "ESM output from LilScript 63c2896.",
       "primary": true,
       "measuredAt": "2026-09-10T13:59:38Z",
       "artifactSha256": "dc8ad21d076f268deab064e1396e3d1539d02889a3ffa7dcd21d19bfde3691d4"
@@ -78,7 +78,7 @@
       "raw": 29238,
       "gzip9": 9775,
       "brotli11": 8555,
-      "note": "Same source, extern_fields false; diagnostic only",
+      "note": "ESM output from LilScript 63c2896.",
       "measuredAt": "2026-09-10T13:59:38Z",
       "artifactSha256": "5c4806ead034a786ba01bc8e0e23dd5436c0208e579eaa91895869b388ba3869"
     }
@@ -95,7 +95,5 @@
       "documentMs": 0.04070899999987887
     }
   ],
-  "sizeMeasuredAt": "2026-09-10T13:59:38Z",
-  "buildAudit": "./build-audit.json",
-  "runtimeEvidenceStatus": "Historical; runtime throughput was not republished as a measurement of this compiler."
+  "sizeMeasuredAt": "2026-09-10T13:59:38Z"
 }

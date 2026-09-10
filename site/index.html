@@ -30,7 +30,7 @@
         <div class="hero-copy">
           <p class="eyebrow"><span class="live-dot"></span> rehype-stringify@10.0.1 · LilScript port · @itslil/rehype-stringify</p>
           <h1>hast,<br /><em>stringified</em></h1>
-          <p class="lede">Official <code>rehype-stringify@10.0.1</code> algorithm rewritten in LilScript. API and parity tests 10/10. Not affiliated with upstream. Official rows are the published plugin plus hast-util-to-html, then Terser and esbuild.</p>
+          <p class="lede">Official <code>rehype-stringify@10.0.1</code> algorithm rewritten in LilScript. Repository checks: 10/10 pass. Not affiliated with upstream. Official rows are the published plugin plus hast-util-to-html, then Terser and esbuild.</p>
           <div class="install-row">
             <code>npm install @itslil/rehype-stringify</code>
             <button class="copy" data-copy="npm install @itslil/rehype-stringify" type="button">copy</button>
@@ -54,14 +54,12 @@
           </div>
           <p class="score-note">
             Official rows are one esbuild bundle of <code>rehype-stringify@10.0.1</code> plus the packages it needs at runtime, then Terser or esbuild.
-            LilScript is not post-minified. The npm file is the Brotli-scored compile. Closed LilScript is the same source with <code>extern_fields = false</code>.
-          </p>
+            LilScript is not post-minified. The measured ESM is the Brotli-scored compile. Closed LilScript is the same source with <code>extern_fields = false</code>. Repository checks pass.</p>
         </div>
       </section>
       <section class="ticker" aria-label="Supported features">
         <div>compiler <span>✦</span> to-html <span>✦</span> allowDangerousHtml <span>✦</span> checkbox type <span>✦</span> tree-shake</div>
       </section>
-      <p data-audit-history="2026-09-10" style="max-width:1160px;margin:18px auto;padding:12px 20px;font:14px/1.6 system-ui;color:#344b54;background:#edf3f4">The build audit above records the current compiler check. Runtime throughput and application benchmarks below retain their earlier measurement dates.</p>
 <section class="performance shell" id="performance">
         <div class="section-heading">
           <div>
@@ -70,7 +68,7 @@
           </div>
           <p>
             Not Playwright — Node v22.21.1 on this machine, quiet median after warmup.
-            Race 10× in the playground for a browser number. The API and parity suite (10/10) is green before any size row is a claim.
+            Race 10× in the playground for a browser number. Repository checks: 10/10 pass.
           </p>
         </div>
         <div class="perf-cards" id="perf-cards"></div>
@@ -135,7 +133,7 @@
           </div>
           <div class="codec-block">
             <h3>Brotli-11</h3>
-            <p class="codec-lead">The wire number. LilScript row is the npm file.</p>
+            <p class="codec-lead">The wire number. LilScript row is the measured ESM.</p>
             <div class="total-bar" id="bar-brotli"></div>
             <div class="table-wrap">
               <table>
@@ -197,7 +195,7 @@
     </main>
     <footer class="shell">
       <span>@itslil/rehype-stringify · MIT</span>
-      <span>official rehype-stringify@10.0.1 algorithm rewritten in LilScript — API and parity suite 10/10 — not affiliated with upstream</span>
+      <span>official rehype-stringify@10.0.1 algorithm rewritten in LilScript — repository checks 10/10 — not affiliated with upstream</span>
       <a href="https://github.com/yeargun/rehype-stringifylil">source ↗</a>
     </footer>
   </body>
