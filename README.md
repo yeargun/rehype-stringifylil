@@ -21,3 +21,8 @@ You publish the library lane. `dist/rehype-stringify.closed.js` is diagnostic on
 
 The LilScript compiler lives next door at `../lilscript`.
 The serializer source is shared from the sibling `../hast-util-to-htmllil` checkout so the two packages cannot drift.
+
+
+## Comparison with the original
+
+See [COMPARISON.md](COMPARISON.md) for current size and build-time comparisons against minified upstream.
