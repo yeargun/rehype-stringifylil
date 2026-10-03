@@ -1,0 +1,30 @@
+{
+  "originalSeconds": 0.5479939909999999,
+  "runtimeLockSha256": "79d5fbc71398ba641741aa3cef3d861b1e6e20cbaf017ed7203449f518866977",
+  "pin": "rehype-stringify@10.0.1",
+  "upstreamIntegrity": "sha512-k9ecfXHmIPuFVI61B9DeLPN0qFHfawM6RsuX48hoqlaKSF61RskNjSm1lI8PhBEM0MRdLxVVm4WmTqJQccH9mA==",
+  "entry": "index.js",
+  "external": [],
+  "conditions": [
+    "node",
+    "import"
+  ],
+  "tools": {
+    "esbuild": "0.28.1",
+    "terser": "5.51.2",
+    "vite": "8.2.1"
+  },
+  "comparison": "rehype-stringify@10.0.1 public runtime graph, Node-compatible conditions; original and LilScript keep the same external dependencies (none). Original graph assembled with esbuild 0.28.1; minified separately with Terser 5.51.2 (three passes), Oxc (mangle on/off), and esbuild. Browser DOM-decoder diagnostics, when present, are excluded from the Node comparison baseline. Raw, gzip-9 and Brotli-11 are measured with the same canonical codec. The LilScript lane is the delivered package artifact.",
+  "original": {
+    "raw": 31928,
+    "gzip9": 11255,
+    "brotli11": 9875,
+    "sha256": "cca2f60d6f4f35c3e1298a8fe380b777febe251242cc8305830df7177d1656ce"
+  },
+  "lilscript": {
+    "raw": 29525,
+    "gzip9": 9635,
+    "brotli11": 8558,
+    "sha256": "139113c0566a87d540dbf033f53a1d9e48119793c0b5f900cfb0900127ac273c"
+  }
+}

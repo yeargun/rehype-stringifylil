@@ -1,0 +1,314 @@
+{
+  "version": 3,
+  "codec": "brotli",
+  "outputs": [
+    {
+      "mode": "single",
+      "format": "esm",
+      "entries": [
+        {
+          "name": "index",
+          "file": "rehype-stringify.closed.js",
+          "dynamic": false,
+          "closure": [
+            "rehype-stringify.closed.js"
+          ],
+          "row": 8433,
+          "raw_row": 29538
+        }
+      ],
+      "files": [
+        {
+          "file": "rehype-stringify.closed.js",
+          "role": "entry",
+          "source_map_for": null,
+          "label": [
+            "index"
+          ],
+          "modules": [
+            "index.lil",
+            "lib/index.lil",
+            "../../hast-util-to-htmllil/src/index.lil",
+            "../../hast-util-to-htmllil/src/lib/index.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/index.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/comment.lil",
+            "../../hast-util-to-htmllil/src/lib/entities.lil",
+            "../../hast-util-to-htmllil/src/lib/types.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/doctype.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/element.lil",
+            "../../hast-util-to-htmllil/src/lib/schema.lil",
+            "../../hast-util-to-htmllil/src/lib/schema-data.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/closing.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/omission.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/util/siblings.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/opening.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/raw.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/text.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/root.lil"
+          ],
+          "anchored": true,
+          "imports": [],
+          "dynamic_imports": [],
+          "bytes": 29538,
+          "codec_bytes": 8433,
+          "sha256": "278b5592b25ca531dfabe70f3d5d99c851ec68042c1651edce1c819fc83b6943"
+        }
+      ],
+      "side_effects": [
+        "rehype-stringify.closed.js"
+      ],
+      "codec_total": 8433,
+      "rows_total": 8433,
+      "setters": 0,
+      "output": "primary",
+      "codec": "brotli",
+      "codec_settings": {
+        "brotli": {
+          "quality": 11,
+          "window": 22,
+          "mode": "generic"
+        },
+        "gzip": {
+          "level": 9,
+          "window": 15
+        }
+      },
+      "policy_fingerprint": [
+        215,
+        103,
+        225,
+        48,
+        13,
+        211,
+        17,
+        235,
+        170,
+        249,
+        198,
+        58,
+        39,
+        174,
+        224,
+        192,
+        22,
+        98,
+        27,
+        172,
+        228,
+        248,
+        253,
+        149,
+        98,
+        85,
+        51,
+        189,
+        209,
+        244,
+        122,
+        245
+      ]
+    }
+  ],
+  "source_sha256": "6590efad0869a780f3590055cc08ecf91bc297bc08f51ffdc2ea2059dd19f04f",
+  "inputs": {
+    "root": 0,
+    "entries": [
+      {
+        "name": "index",
+        "module": 0
+      }
+    ],
+    "modules": [
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/rehype-stringifylil/src/index.lil",
+        "bytes": 91,
+        "sha256": "bdfd1afed9ad707ea7288d845e12e1235b81179e84ccc467524df7ed7d07c905",
+        "dependencies": [
+          1
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/rehype-stringifylil/src/lib/index.lil",
+        "bytes": 883,
+        "sha256": "57e0751a0863bc01e123b939eced4a17ae62ec5bba6fab54b4878b75821225d3",
+        "dependencies": [
+          2,
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/index.lil",
+        "bytes": 164,
+        "sha256": "0fa477ec92851ed6e58e8a4cdfdefc64a0d326748ed2542487c47b5bd2fa45d8",
+        "dependencies": [
+          3
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/index.lil",
+        "bytes": 2486,
+        "sha256": "26c55ae933415e3b0e0b1a3c677c1680224c6e9833ccab40460468e8f9248856",
+        "dependencies": [
+          4,
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/handle/index.lil",
+        "bytes": 1257,
+        "sha256": "f8b1a787209af8672c29f01185dd99e6c575e4d4a2abc3a0479bb2b8aef1fb87",
+        "dependencies": [
+          5,
+          8,
+          9,
+          16,
+          18,
+          17,
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/handle/comment.lil",
+        "bytes": 499,
+        "sha256": "4c1b705c415968848cd5d2e0c9e1a2403e81e75b19e6213c8b70a67320fb8079",
+        "dependencies": [
+          6,
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/entities.lil",
+        "bytes": 5781,
+        "sha256": "da241d65eb99b3d8116c6ca6372d4708b633d93127e77897f8ec39e5e53eb886",
+        "dependencies": [
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/types.lil",
+        "bytes": 6348,
+        "sha256": "00ef68aa24de78cca81260ca6c375673129e228f40763718bd0fdf2a946b857d",
+        "dependencies": [],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/handle/doctype.lil",
+        "bytes": 339,
+        "sha256": "a18bff27907fecde3ffd44c6c1adbd2a6513e8e9f0356444aa6c7acc5547f501",
+        "dependencies": [
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/handle/element.lil",
+        "bytes": 6032,
+        "sha256": "f3abf6c3c4bcbeead650d23b02a5e5b6b1b5ba7f5afe0c5848811ad00ddb1c9c",
+        "dependencies": [
+          3,
+          6,
+          10,
+          12,
+          15,
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/schema.lil",
+        "bytes": 3621,
+        "sha256": "0df18e11024aafb9f6bc52eb6b35403299745fd8be29eed15865a0ea5ac67ce3",
+        "dependencies": [
+          11,
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/schema-data.lil",
+        "bytes": 18501,
+        "sha256": "d8af02546e95f0422caa52f0905cb9fb4fe8bb5138c62ba29f1a16e1536f7ec3",
+        "dependencies": [],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/omission/closing.lil",
+        "bytes": 4116,
+        "sha256": "3f6e927f30745ed944c537b23214544f6a4e8be90faed591cde4f23b9fbfcd70",
+        "dependencies": [
+          13,
+          14,
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/omission/omission.lil",
+        "bytes": 513,
+        "sha256": "349a475265c135b94e6612b27bee5350c45518162fe86c84ae2555cd738de90f",
+        "dependencies": [],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/omission/util/siblings.lil",
+        "bytes": 932,
+        "sha256": "f66f24cfed228c58d234253ded8ac3266d36ab866028083cbff806c1cdaa50fe",
+        "dependencies": [
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/omission/opening.lil",
+        "bytes": 3550,
+        "sha256": "b0554c4639e81d743effc460c4e5b5504b96864cd493d583704452e8393be7da",
+        "dependencies": [
+          12,
+          13,
+          14,
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/handle/raw.lil",
+        "bytes": 294,
+        "sha256": "68d551152ba36a178112cbf1f397b3e85243377611b6e35e35cd010de9bdc14f",
+        "dependencies": [
+          17,
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/handle/text.lil",
+        "bytes": 567,
+        "sha256": "3aaabda981f5c88d0d107f90b76f0f314baf7f5320593049019b04c1ff41b100",
+        "dependencies": [
+          6,
+          7
+        ],
+        "dynamic_dependencies": []
+      },
+      {
+        "path": "/home/azureuser/lilscript-rebuild-reports/2026-10-03-site-refresh/ports/hast-util-to-htmllil/src/lib/handle/root.lil",
+        "bytes": 181,
+        "sha256": "b2ec07dec13d0892da360201fb7ab15d868c6ffcdf9653cbe28e290da3cc9847",
+        "dependencies": [
+          3,
+          7
+        ],
+        "dynamic_dependencies": []
+      }
+    ],
+    "host_modules": [],
+    "host_reserved": []
+  }
+}

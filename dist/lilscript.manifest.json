@@ -1,0 +1,420 @@
+{
+  "version": 5,
+  "outputs": [
+    {
+      "mode": "single",
+      "format": "esm",
+      "entries": [
+        {
+          "name": "index",
+          "file": "rehype-stringify.esm.js",
+          "dynamic": false,
+          "closure": [
+            "rehype-stringify.esm.js"
+          ],
+          "row": 8391,
+          "raw_row": 29350
+        }
+      ],
+      "files": [
+        {
+          "file": "rehype-stringify.esm.js",
+          "role": "entry",
+          "source_map_for": null,
+          "label": [
+            "index"
+          ],
+          "modules": [
+            "index.lil",
+            "lib/index.lil",
+            "../../hast-util-to-htmllil/src/index.lil",
+            "../../hast-util-to-htmllil/src/lib/index.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/index.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/comment.lil",
+            "../../hast-util-to-htmllil/src/lib/entities.lil",
+            "../../hast-util-to-htmllil/src/lib/types.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/doctype.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/element.lil",
+            "../../hast-util-to-htmllil/src/lib/schema.lil",
+            "../../hast-util-to-htmllil/src/lib/schema-data.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/closing.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/omission.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/util/siblings.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/opening.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/raw.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/text.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/root.lil"
+          ],
+          "anchored": true,
+          "imports": [],
+          "dynamic_imports": [],
+          "bytes": 29350,
+          "codec_bytes": 8391,
+          "sha256": "3386a742193a7385ecc620d29d11358640f0154d632dbf8aec843acaa45dc56d"
+        }
+      ],
+      "side_effects": [
+        "rehype-stringify.esm.js"
+      ],
+      "codec_total": 8391,
+      "rows_total": 8391,
+      "setters": 0,
+      "output": "public/primary",
+      "codec": "brotli",
+      "codec_settings": {
+        "brotli": {
+          "quality": 11,
+          "window": 22,
+          "mode": "generic"
+        },
+        "gzip": {
+          "level": 9,
+          "window": 15
+        }
+      },
+      "policy_fingerprint": [
+        165,
+        29,
+        94,
+        210,
+        29,
+        113,
+        149,
+        208,
+        144,
+        237,
+        143,
+        7,
+        247,
+        4,
+        26,
+        251,
+        18,
+        146,
+        181,
+        216,
+        155,
+        127,
+        74,
+        64,
+        213,
+        217,
+        249,
+        175,
+        104,
+        166,
+        61,
+        97
+      ]
+    },
+    {
+      "mode": "single",
+      "format": "iife",
+      "entries": [
+        {
+          "name": "index",
+          "file": "rehype-stringify.umd.js",
+          "dynamic": false,
+          "closure": [
+            "rehype-stringify.umd.js"
+          ],
+          "row": 8451,
+          "raw_row": 29525
+        }
+      ],
+      "files": [
+        {
+          "file": "rehype-stringify.umd.js",
+          "role": "entry",
+          "source_map_for": null,
+          "label": [
+            "index"
+          ],
+          "modules": [
+            "lib/index.lil",
+            "../../hast-util-to-htmllil/src/lib/index.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/index.lil",
+            "../../hast-util-to-htmllil/src/lib/entities.lil",
+            "../../hast-util-to-htmllil/src/lib/types.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/element.lil",
+            "../../hast-util-to-htmllil/src/lib/schema.lil",
+            "../../hast-util-to-htmllil/src/lib/schema-data.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/closing.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/util/siblings.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/opening.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/text.lil"
+          ],
+          "anchored": true,
+          "imports": [],
+          "dynamic_imports": [],
+          "bytes": 29525,
+          "codec_bytes": 8451,
+          "sha256": "adb288939172ecea82092b17d5a700d040e019fc5a94f02d0fb8f27f49ecd62b"
+        }
+      ],
+      "side_effects": [
+        "rehype-stringify.umd.js"
+      ],
+      "codec_total": 8451,
+      "rows_total": 8451,
+      "setters": 0,
+      "output": "public/browser",
+      "codec": "brotli",
+      "codec_settings": {
+        "brotli": {
+          "quality": 11,
+          "window": 22,
+          "mode": "generic"
+        },
+        "gzip": {
+          "level": 9,
+          "window": 15
+        }
+      },
+      "policy_fingerprint": [
+        56,
+        253,
+        65,
+        19,
+        90,
+        155,
+        59,
+        205,
+        60,
+        44,
+        98,
+        27,
+        95,
+        52,
+        223,
+        242,
+        15,
+        198,
+        89,
+        180,
+        36,
+        192,
+        204,
+        93,
+        118,
+        1,
+        29,
+        198,
+        26,
+        165,
+        230,
+        240
+      ]
+    },
+    {
+      "mode": "single",
+      "format": "cjs",
+      "entries": [
+        {
+          "name": "index",
+          "file": "rehype-stringify.cjs",
+          "dynamic": false,
+          "closure": [
+            "rehype-stringify.cjs"
+          ],
+          "row": 8492,
+          "raw_row": 29676
+        }
+      ],
+      "files": [
+        {
+          "file": "rehype-stringify.cjs",
+          "role": "entry",
+          "source_map_for": null,
+          "label": [
+            "index"
+          ],
+          "modules": [
+            "lib/index.lil",
+            "../../hast-util-to-htmllil/src/lib/index.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/index.lil",
+            "../../hast-util-to-htmllil/src/lib/entities.lil",
+            "../../hast-util-to-htmllil/src/lib/types.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/element.lil",
+            "../../hast-util-to-htmllil/src/lib/schema.lil",
+            "../../hast-util-to-htmllil/src/lib/schema-data.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/closing.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/util/siblings.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/opening.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/text.lil"
+          ],
+          "anchored": true,
+          "imports": [],
+          "dynamic_imports": [],
+          "bytes": 29676,
+          "codec_bytes": 8492,
+          "sha256": "7b4dffa2683c875fbbede5b5e38593009332fdc4447883bc5e24566d4f670300"
+        }
+      ],
+      "side_effects": [
+        "rehype-stringify.cjs"
+      ],
+      "codec_total": 8492,
+      "rows_total": 8492,
+      "setters": 0,
+      "output": "public/cjs",
+      "codec": "brotli",
+      "codec_settings": {
+        "brotli": {
+          "quality": 11,
+          "window": 22,
+          "mode": "generic"
+        },
+        "gzip": {
+          "level": 9,
+          "window": 15
+        }
+      },
+      "policy_fingerprint": [
+        43,
+        204,
+        216,
+        5,
+        158,
+        6,
+        113,
+        0,
+        250,
+        38,
+        49,
+        10,
+        137,
+        218,
+        147,
+        87,
+        240,
+        250,
+        144,
+        90,
+        35,
+        42,
+        202,
+        242,
+        49,
+        215,
+        80,
+        109,
+        214,
+        177,
+        134,
+        173
+      ]
+    },
+    {
+      "mode": "single",
+      "format": "esm",
+      "entries": [
+        {
+          "name": "index",
+          "file": "rehype-stringify.closed.js",
+          "dynamic": false,
+          "closure": [
+            "rehype-stringify.closed.js"
+          ],
+          "row": 8433,
+          "raw_row": 29538
+        }
+      ],
+      "files": [
+        {
+          "file": "rehype-stringify.closed.js",
+          "role": "entry",
+          "source_map_for": null,
+          "label": [
+            "index"
+          ],
+          "modules": [
+            "index.lil",
+            "lib/index.lil",
+            "../../hast-util-to-htmllil/src/index.lil",
+            "../../hast-util-to-htmllil/src/lib/index.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/index.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/comment.lil",
+            "../../hast-util-to-htmllil/src/lib/entities.lil",
+            "../../hast-util-to-htmllil/src/lib/types.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/doctype.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/element.lil",
+            "../../hast-util-to-htmllil/src/lib/schema.lil",
+            "../../hast-util-to-htmllil/src/lib/schema-data.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/closing.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/omission.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/util/siblings.lil",
+            "../../hast-util-to-htmllil/src/lib/omission/opening.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/raw.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/text.lil",
+            "../../hast-util-to-htmllil/src/lib/handle/root.lil"
+          ],
+          "anchored": true,
+          "imports": [],
+          "dynamic_imports": [],
+          "bytes": 29538,
+          "codec_bytes": 8433,
+          "sha256": "278b5592b25ca531dfabe70f3d5d99c851ec68042c1651edce1c819fc83b6943"
+        }
+      ],
+      "side_effects": [
+        "rehype-stringify.closed.js"
+      ],
+      "codec_total": 8433,
+      "rows_total": 8433,
+      "setters": 0,
+      "output": "closed/primary",
+      "codec": "brotli",
+      "codec_settings": {
+        "brotli": {
+          "quality": 11,
+          "window": 22,
+          "mode": "generic"
+        },
+        "gzip": {
+          "level": 9,
+          "window": 15
+        }
+      },
+      "policy_fingerprint": [
+        215,
+        103,
+        225,
+        48,
+        13,
+        211,
+        17,
+        235,
+        170,
+        249,
+        198,
+        58,
+        39,
+        174,
+        224,
+        192,
+        22,
+        98,
+        27,
+        172,
+        228,
+        248,
+        253,
+        149,
+        98,
+        85,
+        51,
+        189,
+        209,
+        244,
+        122,
+        245
+      ]
+    }
+  ],
+  "aliases": {
+    "rehype-stringify.raw.js": "rehype-stringify.esm.js"
+  },
+  "providers": [],
+  "source_sha256": "969487ca8703661a89ff8da5af763c0322e1bcc16d76cb413b16d1f3814bf391"
+}
