@@ -1,0 +1,84 @@
+TAP version 13
+# Subtest: rehype-stringify
+    # Subtest: exports only the default plugin
+    ok 1 - exports only the default plugin
+      ---
+      duration_ms: 2.121245
+      ...
+    # Subtest: compiles a paragraph hast node to html
+    ok 2 - compiles a paragraph hast node to html
+      ---
+      duration_ms: 0.682128
+      ...
+    # Subtest: emits input type from properties
+    ok 3 - emits input type from properties
+      ---
+      duration_ms: 2.125202
+      ...
+    # Subtest: escapes text and joins className arrays
+    ok 4 - escapes text and joins className arrays
+      ---
+      duration_ms: 0.284743
+      ...
+    # Subtest: keeps pinned keys in the library artifact
+    ok 5 - keeps pinned keys in the library artifact
+      ---
+      duration_ms: 0.379902
+      ...
+    # Subtest: merges processor settings before explicit options
+    ok 6 - merges processor settings before explicit options
+      ---
+      duration_ms: 0.205636
+      ...
+    # Subtest: passes all character-reference options to the serializer
+    ok 7 - passes all character-reference options to the serializer
+      ---
+      duration_ms: 2.09724
+      ...
+    # Subtest: copies own settings without prototype pollution
+    ok 8 - copies own settings without prototype pollution
+      ---
+      duration_ms: 0.209483
+      ...
+    1..8
+ok 1 - rehype-stringify
+  ---
+  duration_ms: 9.692591
+  type: 'suite'
+  ...
+# Subtest: rehype-stringify closed
+    # Subtest: ships a closed artifact with the default export
+    ok 1 - ships a closed artifact with the default export
+      ---
+      duration_ms: 0.88058
+      ...
+    1..1
+ok 2 - rehype-stringify closed
+  ---
+  duration_ms: 1.94798
+  type: 'suite'
+  ...
+# Subtest: three independently targeted builds have current artifact and config hashes
+ok 3 - three independently targeted builds have current artifact and config hashes
+  ---
+  duration_ms: 4.059456
+  ...
+# Subtest: public comparison describes current versus original and distinguishes build stages
+ok 4 - public comparison describes current versus original and distinguishes build stages
+  ---
+  duration_ms: 0.520235
+  ...
+# Subtest: built Pages artifact contains the current data and measured downloads
+ok 5 - built Pages artifact contains the current data and measured downloads
+  ---
+  duration_ms: 0.753301
+  ...
+1..5
+# tests 12
+# suites 2
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 182.359012

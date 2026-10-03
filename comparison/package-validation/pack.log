@@ -1,0 +1,5 @@
+
+> @itslil/rehype-stringify@10.0.3 check:pack
+> node scripts/check-pack.mjs
+
+npm pack: 9 files, 17539 bytes packed, 124156 bytes unpacked
